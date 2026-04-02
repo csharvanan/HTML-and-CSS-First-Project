@@ -18,6 +18,8 @@ body,h2{
 header a{
     text-decoration: none;
     color: var(--yellow);
+    row-gap: 1em;
+    min-width: 120px;
 }
 header{
     display: flex;
