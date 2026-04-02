@@ -18,11 +18,13 @@ body,h2{
 header a{
     text-decoration: none;
     color: var(--yellow);
-    row-gap: 1em;
     min-width: 120px;
 }
+
 header{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
     padding: 1em;
 }
 #logo{
@@ -33,6 +35,7 @@ header{
 nav{
     flex: 2;
     display: flex;
+    align-items: center;
 }
 nav a{
     flex: 1;
@@ -40,6 +43,9 @@ nav a{
 nav a:hover{
     color: var(--green);
 }
+header h2 i, nav a i{
+    margin-right: .4em;
+}   
 .maintext{
     display: flex;
     flex-direction: column;
